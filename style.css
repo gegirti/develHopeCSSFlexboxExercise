@@ -1,0 +1,9 @@
+sidebar {
+    width: 200px;
+}
+a {
+    color: #2b2b2b;
+}
+a:hover {
+    color: #2b2bb2;
+}
