@@ -1,9 +1,27 @@
-sidebar {
+.sidebar {
     width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 1;
+    
 }
 a {
     color: #2b2b2b;
+    
 }
 a:hover {
     color: #2b2bb2;
+    transition-delay: 0.3s;
+}
+li {
+    list-style: none;
+    flex: 1;
+}
+.avatar {
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+    position: absolute;
+    bottom: 0;
 }
